@@ -9,101 +9,101 @@ The AI Newsletter Generator allows you to instantly generate high-quality newsle
 
 You can customize the generation process by:
 
-Selecting your preferred Gemini model
-Adjusting the temperature (creativity level)
-Choosing whether to include external links, emojis, or maintain a strict professional style
+Selecting your preferred Gemini model<br>
+Adjusting the temperature (creativity level)<br>
+Choosing whether to include external links, emojis, or maintain a strict professional style<br>
 
 Additional functionality includes the ability to:
-Regenerate newsletters for alternative drafts
-Download newsletters in one click
-Copy text directly for quick usage
-Retrieve the top 3 source links that inspired the newsletter content
+Regenerate newsletters for alternative drafts<br>
+Download newsletters in one click<br>
+Copy text directly for quick usage<br>
+Retrieve the top 3 source links that inspired the newsletter content<br>
 
 The project integrates Google API and SERPER API for real-time data access. A detailed guide is provided for obtaining and configuring your personal API keys.
 
 # 🚀 Features
 
-🔑 API integration with Google & SERPER
-📝 Generate Professional / Technical / Casual newsletters
-🎛️ Control model selection, temperature, style, links, and emoji usage
-🔄 Regenerate, download, or copy newsletter content
-🔗 Display top source links for reference
-📊 Visualize trends and topics with Plotly & Matplotlib
-🌐 Built with LangChain and LangGraph for modular AI pipelines 
+🔑 API integration with Google & SERPER<br>
+📝 Generate Professional / Technical / Casual newsletters<br>
+🎛️ Control model selection, temperature, style, links, and emoji usage<br>
+🔄 Regenerate, download, or copy newsletter content<br>
+🔗 Display top source links for reference<br>
+📊 Visualize trends and topics with Plotly & Matplotlib<br>
+🌐 Built with LangChain and LangGraph for modular AI pipelines<br> 
 
 # 🛠️ Tech Stack
-AI & LLM:
-Google Gemini (Large Language Model)
-HuggingFace Embeddings
-LangChain (LLM orchestration)
-LangGraph (workflow graphing for LLM apps)
+AI & LLM:<br>
+Google Gemini (Large Language Model)<br>
+HuggingFace Embeddings<br>
+LangChain (LLM orchestration)<br>
+LangGraph (workflow graphing for LLM apps)<br>
 
-Framework & Tools:
-Streamlit (interactive web app framework)
-Plotly (interactive visualizations)
-Matplotlib (data visualization)
-Pandas & NumPy (data handling and processing)
-Requests / HTTPx (API communication)
+Framework & Tools:<br>
+Streamlit (interactive web app framework)<br>
+Plotly (interactive visualizations)<br>
+Matplotlib (data visualization)<br>
+Pandas & NumPy (data handling and processing)<br>
+Requests / HTTPx (API communication)<br>
 
-Programming & Environment:
-Python (primary language)
-Jupyter / VS Code (development & prototyping)
-Git & GitHub (version control & collaboration)
-FAISS Vectorstore for database 
+Programming & Environment:<br>
+Python (primary language)<br>
+Jupyter / VS Code (development & prototyping)<br>
+Git & GitHub (version control & collaboration)<br>
+FAISS Vectorstore for database <br>
 
-Infrastructure & Deployment:
-Windows 11 (development OS)
-Docker (optional containerized deployment)
-Streamlit Cloud / Hugging Face Spaces (hosting options)
+Infrastructure & Deployment:<br>
+Windows 11 (development OS)<br>
+Docker (optional containerized deployment)<br>
+Streamlit Cloud / Hugging Face Spaces (hosting options)<br>
 
 # Installation:
-1. Clone the repository
-git clone https://github.com/Adarshsalukhe/AI_Newsletter_Generator.git
-cd AI_Newsletter_Generator
+1. Clone the repository<br>
+git clone https://github.com/Adarshsalukhe/AI_Newsletter_Generator.git<br>
+cd AI_Newsletter_Generator<br>
 
-2. (Optional but recommended) Create and activate a virtual environment
-python -m venv venv
-#On macOS/Linux:
-source venv/bin/activate
-#On Windows (PowerShell):
-.\venv\Scripts\Activate.ps1
-#Or on Windows (Command Prompt):
-venv\Scripts\activate
+2. (Optional but recommended) Create and activate a virtual environment<br>
+python -m venv venv<br>
+#On macOS/Linux:<br>
+source venv/bin/activate<br>
+#On Windows (PowerShell):<br>
+.\venv\Scripts\Activate.ps1<br>
+#Or on Windows (Command Prompt):<br>
+venv\Scripts\activate<br>
 
-3. Install Python dependencies
-pip install -r requirements.txt
+3. Install Python dependencies<br>
+pip install -r requirements.txt<br>
 
 # Project Structure:
 
-AI-newsletter-generator/
-│── helper.py     # Source code
-│── app.py        # UI\UX
-|── requirements.txt  # install packages 
-│── README.md     # Project documentation
+AI-newsletter-generator/<br>
+│── helper.py     # Source code<br>
+│── app.py        # UI\UX<br>
+|── requirements.txt  # install packages <br>
+│── README.md     # Project documentation<br>
 
-# Common Issues:
+# Common Issues:<br>
 
-API Key Errors:
-❌ Error: Invalid API Key or API request failed
-✅ Fix: Make sure you’ve added your Google API Key and SERPER API Key correctly in the given field. 
-Double-check for extra spaces or quotes.
+API Key Errors:<br>
+❌ Error: Invalid API Key or API request failed<br>
+✅ Fix: Make sure you’ve added your Google API Key and SERPER API Key correctly in the given field. <br>
+Double-check for extra spaces or quotes.<br>
 
-Missing Dependencies:
-❌ Error: ModuleNotFoundError: No module named 'xyz'
-✅ Fix: Run
-pip install -r requirements.txt 
-to install all required dependencies.
+Missing Dependencies:<br>
+❌ Error: ModuleNotFoundError: No module named 'xyz'<br>
+✅ Fix: Run<br>
+pip install -r requirements.txt <br>
+to install all required dependencies.<br>
 
-Streamlit App Not Launching:
-❌ Error: Nothing happens after running streamlit run app.py
-✅ Fix: Ensure you are inside the correct project directory and your virtual environment is activated.
+Streamlit App Not Launching:<br>
+❌ Error: Nothing happens after running streamlit run app.py<br>
+✅ Fix: Ensure you are inside the correct project directory and your virtual environment is activated.<br>
 
-Version Conflicts:
-❌ Error: Dependency version mismatch (e.g., with langchain, streamlit, or plotly).
-✅ Fix: Upgrade/downgrade packages as specified in requirements.txt, or create a fresh virtual
+Version Conflicts:<br>
+❌ Error: Dependency version mismatch (e.g., with langchain, streamlit, or plotly).<br>
+✅ Fix: Upgrade/downgrade packages as specified in requirements.txt, or create a fresh virtual.<br>
 
-# 👤 Authors / Acknowledgements
-Your Name – @AdarshSalukhe
+# 👤 Authors / Acknowledgements:<br>
+Your Name – @AdarshSalukhe<br>
 
 
 
