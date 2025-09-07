@@ -57,20 +57,20 @@ Docker (optional containerized deployment)
 Streamlit Cloud / Hugging Face Spaces (hosting options)
 
 # Installation:
-# 1. Clone the repository
+1. Clone the repository
 git clone https://github.com/Adarshsalukhe/AI_Newsletter_Generator.git
 cd AI_Newsletter_Generator
 
-# 2. (Optional but recommended) Create and activate a virtual environment
+2. (Optional but recommended) Create and activate a virtual environment
 python -m venv venv
-# On macOS/Linux:
+#On macOS/Linux:
 source venv/bin/activate
-# On Windows (PowerShell):
+#On Windows (PowerShell):
 .\venv\Scripts\Activate.ps1
-# Or on Windows (Command Prompt):
+#Or on Windows (Command Prompt):
 venv\Scripts\activate
 
-# 3. Install Python dependencies
+3. Install Python dependencies
 pip install -r requirements.txt
 
 # Project Structure:
@@ -83,22 +83,22 @@ AI-newsletter-generator/
 
 # Common Issues:
 
-API Key Errors
+API Key Errors:
 ❌ Error: Invalid API Key or API request failed
 ✅ Fix: Make sure you’ve added your Google API Key and SERPER API Key correctly in the given field. 
 Double-check for extra spaces or quotes.
 
-Missing Dependencies
+Missing Dependencies:
 ❌ Error: ModuleNotFoundError: No module named 'xyz'
 ✅ Fix: Run
 pip install -r requirements.txt 
 to install all required dependencies.
 
-Streamlit App Not Launching
+Streamlit App Not Launching:
 ❌ Error: Nothing happens after running streamlit run app.py
 ✅ Fix: Ensure you are inside the correct project directory and your virtual environment is activated.
 
-Version Conflicts
+Version Conflicts:
 ❌ Error: Dependency version mismatch (e.g., with langchain, streamlit, or plotly).
 ✅ Fix: Upgrade/downgrade packages as specified in requirements.txt, or create a fresh virtual
 
